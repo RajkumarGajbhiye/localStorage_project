@@ -1,0 +1,68 @@
+.input_box {
+    width: 300px;
+    height: 2rem;
+    outline: 0;
+    padding: 7px;
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  .container {
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Download-hd-nature-wallpaper.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    overflow: hidden;
+  }
+  .main {
+    width: 400px;
+    margin: 100px auto 0px auto;
+  }
+  
+  .form_data {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn {
+    width: 380px;
+    padding: 7px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #33b8ff;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .label_data {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    position:relative;
+    right:7.7rem
+  }
+  
+  .error{
+  color:red;
+  position:relative;
+  left:1rem;
+    right:0.5rem;
+    bottom:1.7rem
+  }
+  
+  .link_login{
+    text-decoration: none;
+    color:white
+  }
